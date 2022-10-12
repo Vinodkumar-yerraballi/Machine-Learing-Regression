@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 
 
 # load the data
-data = pd.read_csv('Iris.csv')
+data = pd.read_csv("Iris.csv")
 data = data.drop(['Id'], axis=1)
 
 X = data.drop(['Species'], axis=1)
